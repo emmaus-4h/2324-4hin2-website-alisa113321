@@ -34,13 +34,16 @@ div {                             /* geldt voor div */
 }
 
 
-/************************* ALLE WEBPAGINA'S *************************/
+/************************* ALLE WEBPAGINA'S **********************/
 
 /* Indeling en opmaak voor alle pagina's */
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 10 pixels marge,
+  margin: 10px auto; 
+  background-color: rgb(120, 170, 171);
+  
+  /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
@@ -101,7 +104,7 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: #51615c;
+  color: rgb(60, 90, 95);
   text-align: center;
   padding: 12px 55.7px;
   text-decoration: none;
@@ -114,89 +117,71 @@ nav li a:hover {
 nav li a.active {
   background-color: rgb(100, 150, 155);
   font-family: cursive;
-  border: 1px solid rgb(60, 90, 95)
+  border: 1px solid rgb(60, 90, 95);
 }
 
+/*ALGEMEEN-----------------------*/
+
+.teksten {
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.gerechten {
+    font-family: cursive;
+    font-size: 35px;
+  margin: 30px 0px 20px 20px;
+  }
 
 /************************* HOOFDPAGINA *************************/
 
-/* Indeling en opmaak voor hoofdpagina */
 
-/* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
+/*TEKSTEN------------------------*/
 
-.item-plaatje {
-  float: left;
-  width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-}
-
-.item-tekst {
-  float: right;
-  width: 450px;
-}
 
 #hoofdtitel {
   background-color: rgb(100, 150, 155);
   color: rgb(60, 90, 95);
+  font-size: 42px;
 }
-  .page {
-    background-color: rgb(120, 170, 171);
-  }
 
-.begin {
+  .zin1 {
   margin-top: 30px;
-}
-  
-
-  #hoofdtitel {
-    font-size: 42px;
   }
 
-   
+  
+  .teksten {
+font-family: cursive;
+     font-size: 18px;
+  }
+
   .tekst1 {
-    margin-left: 150px;
-    margin-right: 50px;
-    font-family: cursive;
-    font-size: 18px;
+    margin: 0px 30px 0px 150px;
     float: right;
   }
 
   .tekst2 {
-    font-size: 18px;
-    font-family: cursive;
-    margin-right: 60px;
-    margin-left: 20px;
-    margin-top: 200px;
+   margin: 200px 60px 0px 60px;
   }
 
-.tekst3 {
-  font-size: 18px;
-  font-family: cursive;
-  margin-right: 150px;
-  margin-left: 20px;
-}
+  .tekst3 {
+  margin: 0px 150px 0px 20px;
+  }
 
-.tekst4 {
-  font-size: 18px;
-  font-family: cursive;
-  margin-right: 150px;
-  margin-left: 20px;
-  margin-bottom: 60px;
+  .tekst4 {
+  margin: 0px 150px 60px 20px;
   text-decoration: underline;
-}
+  }
 
-.tekst5 {
-  font-family: cursive;
-  margin: 20px 0px 20px 20px;
-  font-size: 18px;
-}
+
+
+
+/*ITEMS---------------------------*/
+
 
   .item-plaatje1 {
-    margin-top: 35px;
-    margin-left: 25px;
-    margin-right: 35px;
-    margin-bottom: 15px;
-   float: left;
+    float: left;
+    margin: 35px 35px 15px 25px;
     border: 10px solid rgb(100, 150, 155);
     border-radius: 5px;
   }
@@ -210,18 +195,34 @@ nav li a.active {
   }
 
   .item-plaatje3 {
-    margin: 35px 0px 0px 50px;
+    margin: 35px 0px 70px 50px;
     transform: rotate(-20deg);
+  }
+
+  .item-plaatje4 {
+     margin-top: 8px;
+     margin-bottom: 65px;
+     margin-left: 10px;
+     float: left;
+  }
+
+/************************* AVONDETEN *************************/
+
+/*TEKSTEN------------------------*/
+
+
+.tekst5 {
+margin: 40px 0px 20px 20px;
 }
 
-.item-plaatje4 {
- margin-bottom: 65px;
- margin-left: 10px;
-  float: left;
+.tekst6 {
+  margin: 15px 0px 55px 20px;
 }
 
-/************************* SUBPAGINA *************************/
+.tekst7 {
+  margin: 0px 15px 0px 20px;
+}
 
-/* Indeling en opmaak voor subpagina */
+/*ITEMS---------------------------*/
 
-/* verzin deze zelf... */
+
