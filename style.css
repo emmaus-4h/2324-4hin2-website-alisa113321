@@ -117,7 +117,7 @@ nav li a:hover {
 nav li a.active {
   background-color: rgb(100, 150, 155);
   font-family: cursive;
-  border: 1px solid rgb(60, 90, 95);
+  
 }
 
 /*ALGEMEEN-----------------------*/
@@ -132,6 +132,10 @@ nav li a.active {
     font-size: 35px;
   margin: 30px 0px 20px 20px;
   }
+
+.introductie {
+  margin: 0px 120px 30px 20px;
+}
 
 /************************* HOOFDPAGINA *************************/
 
@@ -219,13 +223,42 @@ margin: 40px 0px 20px 20px;
   margin: 15px 0px 55px 20px;
 }
 
-.tekst7 {
+.introductie {
   margin: 0px 120px 30px 20px;
 }
 
-.tekst8 {
-  margin: 0px 0px 30px 20px;
+.tekst7 {
+  margin: 30px 35px 50px 20px;
 }
+
+.bijvoegsel {
+  margin: 30px 20px 0px 20px;
+  font-size: 15px;
+  font-style: italic;
+}
+
 /*ITEMS---------------------------*/
 
+.item-plaatje5 {
+  margin: 0px 25px 20px 50px;
+  transform: rotate(0deg);
+  float: right;
+  border: 10px solid rgb(100, 150, 155);
+  border-radius: 5px;
+}
 
+.item-plaatje6 {
+  margin: 50px 20px 15px 15px;
+  transform: rotate(0deg);
+  float: left;
+  border: 10px solid rgb(100, 150, 155);
+  border-radius: 5px;
+}
+
+.item-plaatje7 {
+  margin: 0px 35px 20px 50px;
+  transform: rotate(0deg);
+  float: right;
+  border: 10px solid rgb(100, 150, 155);
+  border-radius: 5px;
+}
