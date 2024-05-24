@@ -137,6 +137,12 @@ nav li a.active {
   margin: 0px 120px 30px 20px;
 }
 
+.bijvoegsel {
+  margin: 30px 20px 0px 20px;
+  font-size: 15px;
+  font-style: italic;
+}
+
 /************************* HOOFDPAGINA *************************/
 
 
@@ -231,11 +237,10 @@ margin: 40px 0px 20px 20px;
   margin: 30px 35px 50px 20px;
 }
 
-.bijvoegsel {
-  margin: 30px 20px 0px 20px;
-  font-size: 15px;
-  font-style: italic;
+.tekst8 {
+   margin: 30px 35px 50px 20px;
 }
+
 
 /*ITEMS---------------------------*/
 
@@ -256,6 +261,14 @@ margin: 40px 0px 20px 20px;
 }
 
 .item-plaatje7 {
+  margin: 0px 35px 20px 50px;
+  transform: rotate(0deg);
+  float: right;
+  border: 10px solid rgb(100, 150, 155);
+  border-radius: 5px;
+}
+
+.item-plaatje8 {
   margin: 0px 35px 20px 50px;
   transform: rotate(0deg);
   float: right;
