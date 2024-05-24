@@ -59,7 +59,7 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
   color: rgb(60, 90, 95);
-  font-family: cursive;
+  font-family: chalkboard;
 } 
 
 p {
@@ -116,19 +116,19 @@ nav li a:hover {
 
 nav li a.active {
   background-color: rgb(100, 150, 155);
-  font-family: cursive;
+  font-family: chalkboard;
   
 }
 
 /*ALGEMEEN-----------------------*/
 
 .teksten {
-  font-family: cursive;
+  font-family: chalkboard;
   font-size: 18px;
 }
 
 .gerechten {
-    font-family: cursive;
+    font-family: chalkboard;
     font-size: 35px;
   margin: 30px 0px 20px 20px;
   }
@@ -161,7 +161,7 @@ nav li a.active {
 
   
   .teksten {
-font-family: cursive;
+font-family: chalkboard;
      font-size: 18px;
   }
 
@@ -268,7 +268,7 @@ margin: 40px 0px 20px 20px;
   border-radius: 5px;
 }
 
-.item-plaatje8 {
+.item-plaatje {
   margin: 0px 35px 20px 50px;
   transform: rotate(0deg);
   float: right;
