@@ -143,10 +143,10 @@ nav li a.active {
   font-style: italic;
 }
 
-/************************* HOOFDPAGINA *************************/
+/********* HOOFDPAGINA *********/
 
 
-/*TEKSTEN------------------------*/
+/*TEKSTEN-------------------*/
 
 
 #hoofdtitel {
@@ -186,7 +186,7 @@ font-family: chalkboard;
 
 
 
-/*ITEMS---------------------------*/
+/*ITEMS-----------------------*/
 
 
   .item-plaatje1 {
@@ -216,13 +216,26 @@ font-family: chalkboard;
      float: left;
   }
 
-/************************* AVONDETEN *************************/
 
-/*TEKSTEN------------------------*/
+
+.item-plaatje9 {
+  float: right
+}
+
+.item-plaatje8 {
+  margin: 0px 35px 20px 5px;
+  transform: rotate(0deg);
+  float: right;
+}
+
+/********** AVONDETEN**********/
+
+/*TEKSTEN------------------*/
 
 
 .tekst5 {
 margin: 40px 0px 20px 20px;
+  font-
 }
 
 .tekst6 {
@@ -261,16 +274,15 @@ margin: 40px 0px 20px 20px;
 }
 
 .item-plaatje7 {
-  margin: 0px 35px 20px 50px;
+  margin: 0px 30px 20px 15px;
   transform: rotate(0deg);
   float: right;
   border: 10px solid rgb(100, 150, 155);
   border-radius: 5px;
 }
 
-.item-plaatje {
-  margin: 0px 35px 20px 50px;
-  transform: rotate(0deg);
+.item-plaatje10 {
+  margin: 0px 30px 15px 20px;
   float: right;
   border: 10px solid rgb(100, 150, 155);
   border-radius: 5px;
