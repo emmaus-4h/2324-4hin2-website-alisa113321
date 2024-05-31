@@ -117,6 +117,7 @@ nav li a:hover {
 nav li a.active {
   background-color: rgb(100, 150, 155);
   font-family: chalkboard;
+  font-size: 18px;
   
 }
 
@@ -135,6 +136,7 @@ nav li a.active {
 
 .introductie {
   margin: 0px 120px 30px 20px;
+  font-size: 18px;
 }
 
 .bijvoegsel {
@@ -171,7 +173,7 @@ font-family: chalkboard;
   }
 
   .tekst2 {
-   margin: 200px 60px 0px 60px;
+   margin: 200px 20px 0px 20px;
   }
 
   .tekst3 {
@@ -200,12 +202,14 @@ font-family: chalkboard;
     float: right;
     margin-right: 25px;
     margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     border: 10px solid rgb(100, 150, 155);
     border-radius: 5px;
   }
 
   .item-plaatje3 {
-    margin: 35px 0px 70px 50px;
+    margin: 45px 0px 70px 50px;
     transform: rotate(-20deg);
   }
 
@@ -235,11 +239,12 @@ font-family: chalkboard;
 
 .tekst5 {
 margin: 40px 0px 20px 20px;
-  font-
+  font-size: 18px;
 }
 
 .tekst6 {
   margin: 15px 0px 55px 20px;
+  font-size: 18px;
 }
 
 .introductie {
@@ -248,10 +253,12 @@ margin: 40px 0px 20px 20px;
 
 .tekst7 {
   margin: 30px 35px 50px 20px;
+  font-size: 18px;
 }
 
 .tekst8 {
    margin: 30px 35px 50px 20px;
+  font-size: 18px;
 }
 
 
